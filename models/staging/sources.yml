@@ -1,0 +1,10 @@
+version: 2
+# version de la spécification YAML
+
+sources:
+    - name: jaffle_shop
+      schema: my_dbt_db
+
+      tables:
+        - name: raw_customers
+        - name: raw_orders

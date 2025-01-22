@@ -1,0 +1,10 @@
+version: 2
+
+models:
+    - name: stg_orders
+      columns:
+        - name: order_id
+        - name: customer
+        - name: ordered_at
+        - name: store_id
+
